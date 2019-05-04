@@ -6,11 +6,13 @@ void setup(){
 }
 
 void loop(){
-    String tampung = Serial.readString();
+    if (Serial.available() > 0) {
+            String tampung = Serial.readString();
     nilai = tampung.toInt();
     Serial.println(nilai);
+    }
     digitalWrite(13, HIGH);
-    delay(100);
+    delay(nilai);
     digitalWrite(13, LOW);
-    delay(100);
+    delay(nilai);
 }
