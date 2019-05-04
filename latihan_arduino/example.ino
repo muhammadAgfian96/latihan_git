@@ -6,7 +6,7 @@ void setup(){
 }
 
 void loop(){
-    nilai = nilai +1;
+    String tampung = Serial.readString();
+    nilai = tampung.toInt();
     Serial.println(nilai);
-    delay(500);
 }
