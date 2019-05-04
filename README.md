@@ -6,4 +6,5 @@ java
 java script
 python
 -matplot lib
+-halo
 -numpy
