@@ -5,7 +5,8 @@ hanya untuk latihan aja cuy
 java
 java script
 python
--matplot lib
--halo \n
--nump \n
-- ML
+-   matplot lib
+-   halo \n
+-   nump \n
+-   ML
+-   test 1
