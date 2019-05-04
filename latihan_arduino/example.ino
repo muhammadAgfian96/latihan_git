@@ -9,4 +9,8 @@ void loop(){
     String tampung = Serial.readString();
     nilai = tampung.toInt();
     Serial.println(nilai);
+    digitalWrite(13, HIGH);
+    delay(100);
+    digitalWrite(13, LOW);
+    delay(100);
 }

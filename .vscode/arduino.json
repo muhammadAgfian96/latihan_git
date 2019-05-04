@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "port": "COM10",
-    "programmer": "AVR ISP",
+    "programmer": "AVRISP mkII",
     "sketch": "latihan_arduino\\example.ino"
 }
